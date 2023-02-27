@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;;
+}
+
+.card {
+    display: flex;
+    border-radius: 1.5rem;
+    flex-direction: column;
+    max-width: 370px;
+    background-color: white;
+}
+
+.image-top {
+    border-radius: 1.5rem;
+}
+
+.top {
+    border-radius: 1.5rem 1.5rem 0 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+h1 {
+    margin: 1.5rem auto 1rem auto;
+    font-weight: 900;
+}
+
+.container {
+    margin: 1rem 2rem;
+}
+
+.description {
+    margin: 1rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.pricing {
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.tune {
+    margin: 1rem;
+    min-width: 2rem;
+}
+
+.annual-plan-text {
+    justify-content: left;
+    font-weight: 700;
+}
+
+.annual-plan-price {
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    padding-right: 1rem;
+    display: flex;
+}
+
+.change:hover {
+    text-decoration: none;
+}
+
+.proceed {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-width: 100%;
+    border-radius: 0.5rem;
+    min-height: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    border: none;
+    box-shadow: 0 1rem 1.5rem rgba(39, 72, 133, 0.5);}
+
+.proceed:hover {
+    background-color: hsl(226, 45%, 74%);
+    cursor: pointer;
+}
+
+.cancel {
+    color: grey;
+    background-color: white;
+    border: none;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.cancel:hover {
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+}
